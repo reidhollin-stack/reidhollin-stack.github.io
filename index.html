@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>8bit recaps drive</title>
+<style>
+ :root{color-scheme:light dark}
+ body{max-width:42rem;margin:3rem auto;padding:0 1.25rem;
+      font:16px/1.65 system-ui,-apple-system,Segoe UI,sans-serif}
+ h1{font-size:1.5rem;margin-bottom:.25rem}
+ .sub{color:#666;margin-top:0}
+ code{background:#8881;padding:.1em .35em;border-radius:3px}
+ footer{margin-top:2.5rem;font-size:.9rem;color:#666}
+</style></head><body>
+<h1>8bit recaps drive</h1>
+<p class="sub">A personal automation that stores finished videos in its owner's Google Drive.</p>
+
+<p><strong>8bit recaps drive</strong> is the Google Drive component of a personal,
+single-user project that produces short 8-bit-styled American football recap
+videos and publishes them to the operator's own social accounts.</p>
+
+<h2>What it does with Google Drive</h2>
+<p>When a video finishes rendering, the application uploads that video file to a
+folder it created in the operator's Google Drive, and it writes two small
+plain-text status files into the same folder: a run report and a music-library
+listing. It also reads one small configuration file from that folder so the
+operator can pause or steer the automation without editing code.</p>
+<p>That is the entire extent of its Drive activity. It uses the
+<code>drive.file</code> scope, which limits it to files it created itself. It
+cannot see, open, or modify any other file in the operator's Drive.</p>
+
+<h2>Who it is for</h2>
+<p>One person: the project's owner and operator. It is not a product, it is not
+distributed, and there are no other users.</p>
+
+<p><a href="privacy.html">Privacy policy</a> &middot;
+   <a href="terms.html">Terms of service</a></p>
+
+<footer>Contact: <a href="mailto:reidhollin@gmail.com">reidhollin@gmail.com</a></footer>
+</body></html>
